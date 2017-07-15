@@ -2,10 +2,27 @@
 
 .header {
   display: flex;
-}
-
-h1 {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+
+.heading {
+  color: MediumAquamarine;
+  display: inline-block;
+  font-size: 14px;
+  align-items: center;
+}
+
+.nav {
+  display: inline-block;
+  font-weight: bold;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
 }
