@@ -76,3 +76,7 @@ a {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+.bites {
+  border: 1px black solid;
+}
