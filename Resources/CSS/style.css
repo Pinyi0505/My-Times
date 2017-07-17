@@ -58,17 +58,16 @@ a {
 
 .column.large {
   width: 630px;
+  border: 1px black solid;
 }
 
 .column.medium {
   width: 300px;
+  border: 1px black solid;
 }
 
 .column.small {
   width: 240px;
-}
-
-.title.unbold {
   border: 1px black solid;
 }
 
@@ -77,6 +76,20 @@ a {
   margin-bottom: 16px;
 }
 
-.bites {
+.story {
+  border: 1px black solid;
+}
+
+.unboldless {
+  border: 1px black solid;
+}
+
+.unbold {
+  height: auto;
+  width: auto;
+  border: 1px black solid;
+}
+
+.research {
   border: 1px black solid;
 }
