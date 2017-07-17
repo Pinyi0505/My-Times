@@ -88,8 +88,5 @@ a {
   height: auto;
   width: auto;
   border: 1px black solid;
-}
-
-.research {
-  border: 1px black solid;
+  display: block;
 }
