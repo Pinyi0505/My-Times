@@ -48,3 +48,7 @@ a {
 .column {
   display: flex;
 }
+
+.title.bold {
+  font-weight: bold;
+}
