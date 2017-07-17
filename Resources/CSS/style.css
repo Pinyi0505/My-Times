@@ -47,8 +47,21 @@ a {
 
 .column {
   display: flex;
+  flex-direction: column;
 }
 
 .title.bold {
   font-weight: bold;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
