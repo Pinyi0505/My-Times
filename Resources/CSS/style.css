@@ -43,11 +43,13 @@ a {
 
 .body {
   display: flex;
+  border: 1px black solid;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  border: 1px black solid;
 }
 
 .title.bold {
@@ -64,4 +66,13 @@ a {
 
 .column.small {
   width: 240px;
+}
+
+.title.unbold {
+  border: 1px black solid;
+}
+
+.content.regular {
+  margin-top: 16;
+  margin-bottom: 16;
 }
