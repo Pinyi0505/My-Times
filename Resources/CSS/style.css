@@ -95,6 +95,13 @@ a {
   border: 1px black solid;
 }
 
+.title.unbold {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
 .mother {
   background-image: url("../Photos/img-story-main.png");
   display: flex;
@@ -102,4 +109,6 @@ a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  width: 630px;
+  height: 300px;
 }
