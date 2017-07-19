@@ -43,13 +43,12 @@ a {
 
 .body {
   display: flex;
-  border: 1px black solid;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
+  margin-right: 32px;
 }
 
 .title.bold {
@@ -128,4 +127,10 @@ a {
   height: 300px;
   font-size: 30px;
   text-align: center;
+}
+
+.content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
