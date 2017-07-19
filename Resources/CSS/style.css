@@ -94,3 +94,12 @@ a {
 .bites {
   border: 1px black solid;
 }
+
+.mother {
+  background-image: url("../Photos/img-story-main.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
