@@ -61,11 +61,12 @@ a {
 }
 
 .column.large {
-  width: 624px;
+  width: 630px;
+  justify-content: space-between;
 }
 
 .column.medium {
-  width: 256px;
+  width: 300px;
 }
 
 .column.small {
@@ -89,8 +90,14 @@ a {
   color: white;
 }
 
+.big .background {
+  display: flex;
+}
+
 .background {
   display: flex;
+  height: 300px;
+  width: 300px;
 }
 
 #mother {
@@ -102,19 +109,20 @@ a {
 
 .earth {
   background-image: url("../Photos/img-story-2.png");
-  height: 300px;
   font-size: 30px;
+  margin-top: 15px;
+  display: block;
 }
 
 .camera {
   background-image: url("../Photos/img-story-3.png");
-  height: 300px;
   font-size: 30px;
+  margin-top: 15px;
+  display: block;
 }
 
 .cats {
   background-image: url("../Photos/img-story-1.png");
-  height: 300px;
   font-size: 30px;
   text-align: center;
 }
@@ -127,4 +135,12 @@ a {
 
 .double {
   display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+fifty {
+  height: 250px;
+  width: 300px;
+  display: block;
 }
