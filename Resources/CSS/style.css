@@ -43,7 +43,6 @@ a {
 
 .body {
   display: flex;
-  border: 1px solid black;
   padding-top: 37px;
   margin-bottom: 78px;
   margin-left: auto;
@@ -63,17 +62,14 @@ a {
 
 .column.large {
   width: 624px;
-  border: 1px black solid;
 }
 
 .column.medium {
   width: 256px;
-  border: 1px black solid;
 }
 
 .column.small {
   width: 240px;
-  border: 1px black solid;
 }
 
 .content.regular {
@@ -81,22 +77,10 @@ a {
   margin-bottom: 16px;
 }
 
-.story {
-  border: 1px black solid;
-}
-
-.unboldless {
-  border: 1px black solid;
-}
-
 .unbold {
   height: auto;
   width: auto;
   display: block;
-}
-
-.bites {
-  border: 1px black solid;
 }
 
 .title.unbold {
@@ -139,4 +123,8 @@ a {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.double {
+  display: flex;
 }
