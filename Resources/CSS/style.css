@@ -12,6 +12,9 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  padding-top: 0px;
+  margin-top: 0px;
+  top: 0px;
 }
 
 .logo {
@@ -53,7 +56,7 @@ a {
 
 .body {
   display: flex;
-  padding-top: 37px;
+  padding-top: 108px;
   margin-bottom: 78px;
   margin-left: auto;
   margin-right: auto;
