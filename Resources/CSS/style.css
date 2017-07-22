@@ -71,6 +71,8 @@ a {
 
 .title.bold {
   font-weight: bold;
+  font-size: 30px;
+  text-align: left;
 }
 
 .column.large {
@@ -122,6 +124,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mom {
+  margin-left: 20px;
 }
 
 .earth {
